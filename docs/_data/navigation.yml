@@ -1,0 +1,9 @@
+main:
+  - title: "About"
+    url: /about
+  # - title: "Research"
+  #   url: /research
+  # - title: "Student Resources"
+  #   url: /resources
+  - title: "CV"
+    url: /assets/files/cv.pdf
