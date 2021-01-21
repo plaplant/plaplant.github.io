@@ -1,4 +1,52 @@
 ---
-layout: home
+title: "Paul La Plante's Personal Page"
+layout: splash
 author_profile: true
+permalink: /index.html
+header:
+  overlay_image: /assets/images/t21.png
+  overlay_filter: 0.3
+  caption: "21cm Field from a Cosmological Simulation"
+feature_row1:
+  - image_path: assets/images/t21.png
+    alt: "research_photo"
+    title: "Research"
+    excerpt: "A summary of my research interests, and a link to my published papers"
+    url: "/research"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: assets/images/mnist_sample_images.png
+    alt: "resources_photo"
+    title: "Learning Resources"
+    excerpt: "Resources for students or anyone interested in learning more"
+    url: "/resources"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: assets/images/berkeley.jpg
+    image_caption: "UC Berkeley Photo"
+    alt: "about_photo"
+    title: "About Me"
+    excerpt: "More info about me"
+    url: "/about"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: assets/images/cv.png
+    alt: "cv_photo"
+    title: "CV"
+    excerpt: "A recent version of my CV"
+    url: "/assets/files/cv.pdf"
+    btn_label: "Download"
+    btn_class: "btn--primary"
 ---
+
+
+{% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row1" type="right" %}
+
+{% include feature_row id="feature_row4" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}

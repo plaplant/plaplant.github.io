@@ -1,9 +1,19 @@
 main:
   - title: "About"
     url: /about
-  # - title: "Research"
-  #   url: /research
-  # - title: "Student Resources"
-  #   url: /resources
+  - title: "Research"
+    url: /research
   - title: "CV"
     url: /assets/files/cv.pdf
+  - title: "Learning Resources"
+    url: /resources
+
+resources:
+  - title: Resources
+    children:
+      - title: "Machine Learning Boot Camp"
+        url: /resources/ml_boot_camp
+      - title: "CHAMP Camp"
+        url: /resources/champ_camp
+      - title: "What is reionization?"
+        url: /resources/reionization
